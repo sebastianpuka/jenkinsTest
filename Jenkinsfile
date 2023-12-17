@@ -1,4 +1,4 @@
 @Library('sharedlib') _
 pipeline {
- name = "Test"
+ name = 'Test'
 }
