@@ -1,4 +1,4 @@
 @Library('sharedlib') _
-pipeline {
+stdPipeline {
  name = 'Test'
 }
