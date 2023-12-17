@@ -1,4 +1,4 @@
-@Library('sharedlib@main') _
-pipeline2 {
+@Library('sharedlib') _
+pipeline {
  name = 'Test'
 }
