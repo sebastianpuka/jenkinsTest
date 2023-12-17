@@ -1,2 +1,10 @@
-@Library("sharedlib") _
-pipeline()
+pipeline {
+  agent any
+  stages {
+    stage('test'){
+      steps{
+        echo "Hello World"
+      }
+    }
+  }
+}
