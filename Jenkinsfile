@@ -1,2 +1,2 @@
 @Library('sharedlib') _
-pipeline
+pipeline(name: "Test")
